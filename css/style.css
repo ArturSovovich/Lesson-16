@@ -1,0 +1,296 @@
+@import url(./null-style.css);
+
+body{
+  padding: auto;
+}
+
+
+
+.container{
+  max-width: 1296px;
+  margin: 0 auto;
+}
+.flex-container{
+  display: flex;
+  justify-content: space-between;
+}
+.flex-rewers{
+  flex-direction: row-reverse;
+}
+/* header logo*/
+.header-menu-pd{
+  padding-top: 32px;
+}
+.logo{
+  align-items: center;
+}
+.logo-img{
+  display: block;
+  width: 31px;
+  height: 34px;
+  background: url(../image/icons/Logo.svg);
+  margin-right: 10px;
+}
+.logo-text{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 22px;
+  font-weight: 600;
+  color:#FFFFFF;
+}
+/* header menu*/
+nav li a:hover{
+  color: #c4451f;
+}
+nav{
+  margin-top: 8px;
+}
+.nav>li{
+  padding-right: 32px;
+  position: relative;
+}
+.nav :last-of-type{
+  padding-right: 0;
+}
+.nav li a{
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+.submenu{
+  position: absolute;
+  top: 18px;
+  left: -11px;
+  background-color:#f09c9659;
+  border: 1px solid rgba(0, 0, 0, 0.651);
+  border-radius: 10px;
+  display: none;
+}
+.second-submenu_1{
+  top: 0;
+  left: -69px;
+}
+.second-submenu_2{
+  top: 52px;
+  left: -69px;
+}
+nav li:hover>.submenu{
+  display: block;
+}
+.submenu>li{
+  padding:  5px;
+}
+.submenu-Support{
+  top: 18px;
+  left: -5px;
+}
+
+/* header */
+.wrapper-header-footer{
+  background: #023A15;
+}
+.container-header_pd{
+  padding: 85px 0 65px;
+}
+h2{
+  font-family: GT Super Display;
+  font-weight: 900;
+  font-size: 110px;
+  line-height: 110px;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+  margin-bottom: 25px;
+  max-width: 580px;
+}
+h2 span{
+  color:#F09C96
+}
+.link{
+  display: inline-block;
+  padding: 14px 16px 14px 48px;
+  border-radius: 4px;
+  position: relative;font-family: Roboto;
+  font-size: 16px;
+  margin-bottom: 30px;
+  color: #023A15;
+  background-color: #FFFFFF;
+}
+.link::before{
+  content: url(../image/icons/Icons-btn.svg);
+  position: absolute;
+  left: 16px;
+  top: 12px;
+}
+.inscription{
+  font-family: Roboto;
+  font-size: 12px;
+  color: #FFFFFF;
+}
+
+/* img-header */
+.flex-container-img{
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.box-img{
+  max-width: 100%;
+  width: 558px;
+  height: 650px;
+  background: url(../image/baground-layer-1.png);
+}
+.box-img img{
+  max-width: 100%;
+}
+.img-coffee-layer-2{
+  width: 322px;
+  height: 339px;
+  position: relative;
+  top: 14px;
+  left: 11px;
+}
+.img-coffee-layer-2::before{
+  content: url(../image/girl-layer-3.png);
+  position: absolute;
+  top: -30px;
+  left: -28px;
+}
+.img-salad-layer-2{
+  width: 322px;
+  height: 293px;
+  align-self: flex-end;
+  position: relative;
+  bottom: 18px;
+  left: 12px;
+}
+.img-salad-layer-2::before{
+  content: url(../image/man-layer-3.png);
+  position: absolute;
+  top: -26px;
+  left: -26px;
+}
+/* Challenge */
+.Challenge_pd{
+  padding: 128px 0 0px 0;
+}
+h3{
+  font-family: GT Super Display;
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 84px;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+  max-width: 590px;
+}
+.text {
+  font-family: Roboto;
+  font-size: 18px;
+  line-height: 27px;
+  width: 420px;
+  margin-bottom: 130px;
+}
+.img_Challenge_1 {
+  width: 100%;
+  width: 557px;
+  height: auto;
+  margin-bottom: -64px ;
+}
+.img_Challenge_2{
+  width: 100%;
+  width: 391px;
+  height: auto;
+  margin: 217px 145px 0px 0;
+}
+
+/* center */
+.wrapper-about-company {
+  background: #FFE6E2;
+}
+.about-company_pd{
+  padding-top: 180px;
+}
+.content-center{
+  max-width: 650px;
+  margin: 0 auto;
+  text-align: center;
+}
+h4{
+  font-family: GT Super Display;
+  font-weight: 900;
+  font-size: 59px;
+  line-height: 77px;
+  letter-spacing: 3px;
+  margin-bottom: 40px;
+}
+.text.text-center{
+  margin: 0 auto;
+  width: 520px;
+  margin-bottom: 80px;
+}
+.img_company-inc {
+  max-width: 100%;
+  max-width: 885px;
+  height: auto;
+  margin: 0 auto -178px;
+}
+
+/* skills */
+.skills-pd{
+  padding: 186px 0 64px;
+}
+.content-skills{
+  max-width: 50%;
+  padding: 126px 100px 0;
+}
+.minus-margin{
+  margin-bottom: -126px;
+}
+h5{
+  font-family: GT Super Display;
+  font-weight: 900;
+  font-size: 53px;
+  line-height: 72px;
+  letter-spacing: 2px;
+  max-width: 276px;
+  margin-bottom: 16px;
+}
+.content-skills .text{
+  max-width: 350px;
+}
+.img-skills{
+  max-width: 50%;
+}
+.img-skills img{
+  max-width: 100%;
+  width: 562px;
+  height: auto;
+}
+
+/* footer */
+.container-footer_pd{
+  padding: 128px 0 32px;
+}
+.flex-footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer h2{
+  text-align: center;
+  margin-bottom: 41px;
+  max-width: 830px;
+}
+.footer .link{
+  margin-bottom: 12px;
+}
+.footer .inscription{
+  margin-bottom: 162px;
+}
+p.right{
+  font-family: Roboto;
+font-weight: normal;
+font-size: 15px;
+line-height: 24px;
+color: #FFFFFF;
+}
