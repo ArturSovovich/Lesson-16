@@ -3,9 +3,17 @@
 
 
 .container{
-  max-width: 1296px;
+  max-width: 1326px;
   margin: 0 auto;
+  padding: 0 15px;
 }
+/* @media (max-width: 1326px) {
+  .container{
+  max-width: 970px;
+  margin: 0 auto;
+  padding: 0 15px;
+  }
+} */
 .flex-container{
   display: flex;
   justify-content: space-between;
