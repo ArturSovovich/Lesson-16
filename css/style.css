@@ -325,6 +325,7 @@ h4{
   }
   .text.text-center{
   margin-bottom: 40px;
+  max-width: 100%;
   }
 }
 
@@ -358,7 +359,7 @@ h5{
 }
 @media (max-width: 1200px){
   .skills-pd{
-  padding: 100px 0 0;
+  padding: 120px 0 0;
   }
   h5{
     font-size: 40px;
@@ -386,6 +387,9 @@ h5{
     margin: 0 auto;
     max-width: 100%;
   }
+  .minus-margin{
+  margin-bottom: -100px;
+}
 }
 
 
@@ -423,5 +427,13 @@ color: #FFFFFF;
   }
   .footer .inscription{
   margin-bottom: 100px;
+  }
+}
+@media (max-width: 992px){
+  .container-footer_pd{
+  padding: 50px 0 22px;
+  }
+  .footer .inscription{
+  margin-bottom: 60px;
   }
 }
